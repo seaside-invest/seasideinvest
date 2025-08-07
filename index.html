@@ -1,24 +1,47 @@
+
 <!DOCTYPE html>
-<html lang="no">
+<html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Seaside Invest v4.1</title>
+  <title>Seaside Invest v4.2</title>
   <link rel="stylesheet" href="style.css" />
-  <script defer src="app.js"></script>
 </head>
 <body>
   <header>
-    <h1>🌅 Seaside Invest</h1>
-    <p>v4.1 – Buffer, lån, budsjett og Google Sheets</p>
+    <h1>Seaside Invest Dashboard</h1>
+    <nav>
+      <ul>
+        <li><a href="#dashboard">Dashboard</a></li>
+        <li><a href="#lån">Lån</a></li>
+        <li><a href="#utgifter">Faste utgifter</a></li>
+      </ul>
+    </nav>
   </header>
   <main>
-    <section id="buffer"></section>
-    <section id="loans"></section>
-    <section id="cashflow"></section>
+    <section id="dashboard">
+      <h2>Økonomisk oversikt</h2>
+      <p>Live-data hentes fra Google Sheets (integrasjon aktivert).</p>
+    </section>
+    <section id="lån">
+      <h2>Låneoversikt</h2>
+      <ul>
+        <li>Enebolig: 7 014 859 kr (4,45% fast)</li>
+        <li>Ula Seaview: 1 915 743 kr (5,68% flytende)</li>
+      </ul>
+    </section>
+    <section id="utgifter">
+      <h2>Faste utgifter</h2>
+      <ul>
+        <li>Billån: 15 746 kr/mnd</li>
+        <li>Husholdning: 90 276 kr/mnd</li>
+        <li>Personlig forbruk: 10 000 kr/mnd</li>
+        <li>Handlekonto: 15 500 kr/mnd</li>
+      </ul>
+    </section>
   </main>
   <footer>
-    <p>© 2025 Seaside Invest – v4.1</p>
+    <p>Seaside Invest v4.2 – © 2025</p>
   </footer>
 </body>
 </html>
