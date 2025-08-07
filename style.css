@@ -1,49 +1,57 @@
 
 body {
-  background-color: #121212;
-  color: #f1f1f1;
-  font-family: 'Segoe UI', sans-serif;
   margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: #0f1117;
+  color: #f1f1f1;
 }
-header {
-  background-color: #1e1e1e;
-  padding: 1rem;
+.sidebar {
+  position: fixed;
+  top: 0; left: 0;
+  height: 100%;
+  width: 200px;
+  background: #1c1e26;
+  padding: 20px;
+}
+.logo {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
   text-align: center;
-}
-.ticker {
-  background: #0d47a1;
-  color: #fff;
-  padding: 0.3rem;
-  font-weight: bold;
-  font-size: 1rem;
 }
 nav ul {
   list-style: none;
-  display: flex;
-  justify-content: center;
   padding: 0;
-  gap: 2rem;
-  margin: 1rem 0;
+}
+nav li {
+  margin-bottom: 1rem;
 }
 nav a {
   color: #90caf9;
   text-decoration: none;
 }
-main {
-  padding: 2rem;
+.content {
+  margin-left: 220px;
+  padding: 20px;
 }
-.kort {
-  background: #212121;
-  padding: 1rem;
-  border-radius: 10px;
+.ticker {
+  background: #16233a;
+  padding: 0.5rem;
+  margin: 1rem 0;
+  font-weight: bold;
+}
+.cards {
+  display: flex;
+  gap: 1rem;
   margin: 1rem 0;
 }
-ul li {
-  padding: 0.5rem 0;
+.card {
+  background: #1e202a;
+  padding: 1rem;
+  border-radius: 10px;
+  flex: 1;
 }
 footer {
-  background-color: #1e1e1e;
+  margin-top: 2rem;
   text-align: center;
-  padding: 1rem;
-  font-size: 0.9rem;
+  color: #888;
 }
