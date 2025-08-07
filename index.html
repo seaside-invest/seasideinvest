@@ -4,44 +4,52 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Seaside Invest v4.2</title>
+  <title>Seaside Invest v4.3</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
   <header>
-    <h1>Seaside Invest Dashboard</h1>
+    <h1>Seaside Invest 📈</h1>
+    <div class="ticker">
+      <marquee>🔁 Buffer: 34 000 kr | 🏠 Lån totalt: 8 930 602 kr | 💸 Faste utgifter: 121 022 kr/mnd</marquee>
+    </div>
     <nav>
       <ul>
         <li><a href="#dashboard">Dashboard</a></li>
-        <li><a href="#lån">Lån</a></li>
-        <li><a href="#utgifter">Faste utgifter</a></li>
+        <li><a href="#laan">Lån</a></li>
+        <li><a href="#utgifter">Utgifter</a></li>
+        <li><a href="#coach">Spør coachen 🤖</a></li>
       </ul>
     </nav>
   </header>
   <main>
     <section id="dashboard">
       <h2>Økonomisk oversikt</h2>
-      <p>Live-data hentes fra Google Sheets (integrasjon aktivert).</p>
+      <p>Live-data vises under – oppdateres hver 5. minutt fra Google Sheets.</p>
     </section>
-    <section id="lån">
+    <section id="laan">
       <h2>Låneoversikt</h2>
-      <ul>
-        <li>Enebolig: 7 014 859 kr (4,45% fast)</li>
-        <li>Ula Seaview: 1 915 743 kr (5,68% flytende)</li>
-      </ul>
+      <div class="kort">
+        <p><strong>Enebolig:</strong> 7 014 859 kr – 4,45% fast</p>
+        <p><strong>Ula Seaview:</strong> 1 915 743 kr – 5,68% flytende</p>
+      </div>
     </section>
     <section id="utgifter">
-      <h2>Faste utgifter</h2>
+      <h2>Faste Utgifter</h2>
       <ul>
-        <li>Billån: 15 746 kr/mnd</li>
-        <li>Husholdning: 90 276 kr/mnd</li>
-        <li>Personlig forbruk: 10 000 kr/mnd</li>
-        <li>Handlekonto: 15 500 kr/mnd</li>
+        <li>Billån: 15 746 kr</li>
+        <li>Husholdning: 90 276 kr</li>
+        <li>Personlig forbruk: 10 000 kr</li>
+        <li>Handlekonto: 15 500 kr</li>
       </ul>
+    </section>
+    <section id="coach">
+      <h2>Snakk med Coach GPT</h2>
+      <p><a href="https://chatgpt.com/g/g-68951b3532c4819191a45feeeea84a7e-seaside-invest-coach" target="_blank">Klikk her for å åpne GPT-assistenten med dine data</a></p>
     </section>
   </main>
   <footer>
-    <p>Seaside Invest v4.2 – © 2025</p>
+    <p>Seaside Invest v4.3 – © 2025</p>
   </footer>
 </body>
 </html>
