@@ -1,1 +1,0 @@
-// registrering – tom for nå
