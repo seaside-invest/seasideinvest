@@ -1,1 +1,0 @@
-// service worker – tom for nå
