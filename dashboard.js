@@ -1,1 +1,0 @@
-// JavaScript for dashboard interaksjon og live data
