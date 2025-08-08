@@ -1,1 +1,0 @@
-// GPT-widget integrasjonsskript
