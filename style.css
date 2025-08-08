@@ -1,57 +1,41 @@
 
-body {
-  margin: 0;
-  font-family: 'Segoe UI', sans-serif;
-  background: #0f1117;
-  color: #f1f1f1;
-}
-.sidebar {
-  position: fixed;
-  top: 0; left: 0;
-  height: 100%;
-  width: 200px;
-  background: #1c1e26;
-  padding: 20px;
-}
-.logo {
-  font-size: 1.5rem;
-  margin-bottom: 2rem;
-  text-align: center;
-}
-nav ul {
-  list-style: none;
-  padding: 0;
-}
-nav li {
-  margin-bottom: 1rem;
-}
-nav a {
-  color: #90caf9;
-  text-decoration: none;
-}
-.content {
-  margin-left: 220px;
-  padding: 20px;
-}
-.ticker {
-  background: #16233a;
-  padding: 0.5rem;
-  margin: 1rem 0;
-  font-weight: bold;
-}
-.cards {
-  display: flex;
-  gap: 1rem;
-  margin: 1rem 0;
-}
-.card {
-  background: #1e202a;
-  padding: 1rem;
-  border-radius: 10px;
-  flex: 1;
-}
-footer {
-  margin-top: 2rem;
-  text-align: center;
-  color: #888;
-}
+    body {
+        background-color: #121212;
+        color: #f0f0f0;
+        font-family: 'Segoe UI', sans-serif;
+        margin: 0;
+    }
+    header {
+        background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+        padding: 1rem;
+        text-align: center;
+    }
+    nav {
+        background-color: #1f1f1f;
+        padding: 1rem;
+    }
+    nav ul {
+        display: flex;
+        justify-content: space-around;
+        list-style: none;
+        padding: 0;
+    }
+    nav li a {
+        color: #f0f0f0;
+        text-decoration: none;
+        font-weight: bold;
+    }
+    nav li a:hover {
+        text-decoration: underline;
+    }
+    main {
+        padding: 2rem;
+    }
+    .card {
+        background-color: #222;
+        border-radius: 10px;
+        padding: 1.5rem;
+        box-shadow: 0 0 8px rgba(0,0,0,0.4);
+        text-align: center;
+    }
+    
