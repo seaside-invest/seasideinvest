@@ -1,0 +1,101 @@
+{
+  "buffer": 7664,
+  "income_month": 47500,
+  "expense_month": 121022,
+  "loans": [
+    {
+      "name": "Boliglån Hus",
+      "balance": 5200000,
+      "rate": 4.9,
+      "payment": 24500
+    },
+    {
+      "name": "Hyttelån Vrådal",
+      "balance": 950000,
+      "rate": 5.2,
+      "payment": 5800
+    },
+    {
+      "name": "Ula Seaview-lån",
+      "balance": 750000,
+      "rate": 5.1,
+      "payment": 5200
+    },
+    {
+      "name": "Billån Model Y",
+      "balance": 220000,
+      "rate": 6.5,
+      "payment": 3900
+    },
+    {
+      "name": "Billån Model S",
+      "balance": 80000,
+      "rate": 6.9,
+      "payment": 2100
+    },
+    {
+      "name": "Billån Mercedes bobil",
+      "balance": 160000,
+      "rate": 7.2,
+      "payment": 3200
+    },
+    {
+      "name": "Stines studielån",
+      "balance": 120000,
+      "rate": 2.2,
+      "payment": 900
+    }
+  ],
+  "assets": [
+    {
+      "name": "Hus (Stavern)",
+      "value": 7500000
+    },
+    {
+      "name": "Hytte (Vrådal)",
+      "value": 1750000
+    },
+    {
+      "name": "Leilighet (Ula)",
+      "value": 1950000
+    },
+    {
+      "name": "Model Y",
+      "value": 380000
+    },
+    {
+      "name": "Model S",
+      "value": 150000
+    },
+    {
+      "name": "Mercedes bobil",
+      "value": 300000
+    },
+    {
+      "name": "Buffer",
+      "value": 7664
+    }
+  ],
+  "goals": [
+    {
+      "id": "G1",
+      "title": "Første million",
+      "target": 1000000,
+      "current": 670000,
+      "owner": "Sondre",
+      "due": "2028-05-01"
+    },
+    {
+      "id": "G2",
+      "title": "Buffer 200k",
+      "target": 200000,
+      "current": 7664,
+      "owner": "Begge",
+      "due": "2026-06-01"
+    }
+  ],
+  "build": {
+    "version": "5.3",
+    "built_at": "2025-08-09T07:10:48.667863"
+  }
+}

@@ -1,0 +1,45 @@
+
+<!doctype html><html lang="no"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Seaside Invest v5.3</title>
+<link rel="stylesheet" href="assets/style.css"></head><body>
+<header class="topbar">
+  <div class="logo">🌅 <span>Seaside Suite</span></div>
+  <div class="controls">
+    <button class="btn" onclick="manualRefresh()">↻ Oppdater nå</button>
+    <a class="btn" href="okonomi.html">💰 Økonomi</a>
+    <a class="btn" href="mal.html">🎯 Mål</a>
+    <a class="btn" href="health.html">🫀 Health</a>
+    <a class="btn" href="stine.html">🌸 Stine</a>
+  </div>
+</header>
+<main class="wrap">
+  <section class="hero">
+    <div class="ring">
+      <svg viewBox="0 0 180 180">
+        <circle cx="90" cy="90" r="72" class="bg"></circle>
+        <circle cx="90" cy="90" r="84" class="halo"></circle>
+        <circle cx="90" cy="90" r="72" class="fg" stroke-dasharray="452" stroke-dashoffset="226"></circle>
+      </svg>
+      <div class="ring-content"><div class="ring-value">--%</div><div>Første million</div></div>
+    </div>
+    <div>
+      <h1>Mot vår første million</h1>
+      <p>Nå: <strong class="now">—</strong> • Mål: <strong>1 000 000 kr</strong></p>
+      <p>Nettoverdi: <strong id="nettoverdi">—</strong></p>
+    </div>
+  </section>
+  <section class="tiles">
+    <div class="tile" data-tile="buffer"><div class="label">Buffer</div><div class="value">—</div></div>
+    <div class="tile" data-tile="debt"><div class="label">Total gjeld</div><div class="value">—</div></div>
+    <div class="tile" data-tile="income"><div class="label">Mnd inntekt</div><div class="value">—</div></div>
+    <div class="tile" data-tile="expense"><div class="label">Mnd utgifter</div><div class="value">—</div></div>
+  </section>
+  <section class="panels">
+    <div class="panel"><h3>Utleie</h3><div class="placeholder">[ kobles live i 5.4 ]</div></div>
+    <div class="panel"><h3>Gjeld vs Eiendeler</h3><div class="placeholder">[ diagram 5.4 ]</div></div>
+  </section>
+</main>
+<footer>© 2025 Seaside • v5.3</footer>
+<script src="js/app.js"></script>
+</body></html>
