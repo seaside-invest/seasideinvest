@@ -95,7 +95,21 @@
     }
   ],
   "build": {
-    "version": "5.3-RC",
-    "built_at": "2025-08-09T11:33:05.132644"
-  }
+    "version": "5.3-final",
+    "built_at": "2025-08-09T11:43:40.814052"
+  },
+  "users": [
+    {
+      "id": "sondre",
+      "name": "Sondre",
+      "initials": "SO",
+      "accent": "#67a3ff"
+    },
+    {
+      "id": "stine",
+      "name": "Stine",
+      "initials": "ST",
+      "accent": "#f5ce6a"
+    }
+  ]
 }
